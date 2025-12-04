@@ -27,4 +27,14 @@ record_apis: [{
   table_name: "rentals"
   acl_world: [READ]
   acl_authenticated: [CREATE, READ, UPDATE, DELETE]
+}, {
+  name: "vehicle_categories"
+  table_name: "vehicle_categories"
+  acl_world: [READ]
+  acl_authenticated: [CREATE, READ, UPDATE, DELETE]
+}, {
+  name: "vehicles"
+  table_name: "vehicles"
+  acl_world: [READ]
+  acl_authenticated: [CREATE, READ, UPDATE, DELETE]
 }]

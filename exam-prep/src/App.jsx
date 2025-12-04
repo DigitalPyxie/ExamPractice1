@@ -6,7 +6,7 @@ const Trailbase_URL = "https://animated-couscous-x45j7jx7x6w3grv-4000.app.github
 const {dataProvider, authProvider} = await createTrailbaseProvider(Trailbase_URL);
 
 //Import each page
-import { ListPayments } from './resources/payments/ListPayments.jsx';
+import { ListPayments } from './financial/resources/payments/ListPayments.jsx';
 
 
 //Resources
